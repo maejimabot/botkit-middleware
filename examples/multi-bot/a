@@ -1,0 +1,13 @@
+cf push -b sdk-for-nodejs -m 256M <ariyoshihiroiki>
+
+以下は、上記のコマンドの結果（stateがrunnigになっていれば正常に起動しています。）
+requested state: started
+instances: 1/1
+usage: 256M x 1 instances
+urls: xxxxxx.mybluemix.net
+last uploaded: Tue Nov 1 13:58:32 UTC 2016
+stack: unknown
+buildpack: sdk-for-nodejs
+
+     state     since                    cpu    memory           disk           details
+#0   running   2016-11-01 10:59:40 PM   0.0%   113.5M of 256M   125.5M of 1G
